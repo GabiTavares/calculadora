@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: background;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.all {
+    display: inline-block;
+}
+
+@keyframes background{
+            0% {background: #E3C9DF;}
+            20% {background: #D7B5DE;}
+            40% {background: #D2B9D6;}
+            60% {background: #C797BF;}
+            80% {background: #B098C1;}
+            100% {background: #C9B5D4;}
+}
+
+h2{
+    font-size: 2.5em;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+form {   
+    justify-content: center;
+    background-color: Dimgray;
+    border-radius: 5px;
+    width: 20rem;
+    height: 20rem;
+    box-shadow: 10px 10px black;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.text {
+    margin-top: 0.7rem;
+    margin-left: 12px;
+    width: 70%;
+    height: 2rem;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    background-color: #f0fff0;
+    text-align: center;
+}
+
+.textc{
+    width: 20%;
+    height: 2rem;
+    background-color: #9370DB;
+}
+
+.textc:hover{
+    background-color: #9932CC;
+}
+
+.num {
+    margin-top: 10px;
+    margin-left: 8px;
+    width: 65px;
+    height: 55px;
+}
+
+.num:hover {
+    background-color: #f0fff0;
+}
+
+
